@@ -9,10 +9,10 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'houseprice'
+BOT_NAME = 'spider'
 
-SPIDER_MODULES = ['houseprice.spiders']
-NEWSPIDER_MODULE = 'houseprice.spiders'
+SPIDER_MODULES = ['spider.spiders']
+NEWSPIDER_MODULE = 'spider.spiders'
 HTTPERROR_ALLOWED_CODES = [404, 400]
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
