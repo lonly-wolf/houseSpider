@@ -1,3 +1,78 @@
+## About Spider
+
+### EarthQuackSpider
+
+#### 简介
+
+该spider将会从中国地震台官网 http://news.ceic.ac.cn/ 拉取最新的地震信息
+
+#### 用法
+
+切换至__init__.py 所在的目录下，然后执行以下命令：
+    scrapy crawl ceic -o ceic.json
+爬取结果将被保存在 ceic.json 文件中
+
+### NewHouseSpider
+
+#### 简介
+
+该spider将会从链家官网拉取北京地区的新楼盘信息 http://bj.fang.lianjia.com/loupan/
+
+#### 用法
+
+切换至__init__.py 所在的目录下，然后执行以下命令：
+    scrapy crawl newHouse -o newhouse.json
+爬取结果将被保存在 ceic.json 文件中
+
+### OldHouseSpider
+
+#### 简介
+
+该spider将会从链家官网拉取北京地区的二手房信息 https://bj.lianjia.com/ershoufang/
+
+#### 用法
+
+切换至__init__.py 所在的目录下，然后执行以下命令：
+    scrapy crawl newHouse -o newhouse.json
+
+爬取结果将被保存在 ceic.json 文件中
+
+
+### 参考链接
+
+* https://doc.scrapy.org/en/latest/index.html
+* http://scrapy-chs.readthedocs.io/zh_CN/1.0/topics/items.html
+* https://www.ctolib.com/topics-118320.html#articleHeader0
+* https://ask.hellobi.com/blog/pythoncrawl/6196
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 基于链家网站数据的房价提取分析
 
 ### 新房数据抓取规则
