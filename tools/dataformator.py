@@ -49,9 +49,9 @@ def toHotMapValue(averagePrice):
 if __name__ ==  '__main__':
 
     scriptDir  = os.path.dirname(__file__)
-    scriptPath = scriptDir + '\\' + 'newhouse.json'
+    scriptPath = scriptDir + '\\' + 'hotmapdata.json'
 
-    testPath = 'D:/web/newhouse.json'
+    testPath = scriptDir + '\\' + 'newhouse.json'
     result = load(testPath)
 
     with open(scriptPath, 'w') as output:
