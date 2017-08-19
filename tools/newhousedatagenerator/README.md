@@ -5,3 +5,10 @@
 * 输入文件： newhouse.json
 * 输出文件： hotmapdata.json
 
+## Description
+
+该脚本主要功能是将原始数据转换为UI层(即网页层可识别的数据),在这里主要转换的是：
+* 经度
+* 纬度
+* 权重
+
